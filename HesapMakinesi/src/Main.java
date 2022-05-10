@@ -9,13 +9,13 @@ public class Main {
 		
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("Birinci Sayıyı Giriniz");
+		System.out.println("Birinci SayÃ½yÃ½ Giriniz");
 		n1= input.nextInt();
-		System.out.println("İkinci Sayıyı Giriniz");
+		System.out.println("Ãkinci SayÃ½yÃ½ Giriniz");
 		n2 = input.nextInt();
 		
-		System.out.println("Yapmak İstediğiniz İşlemi Giriniz 1-Toplama\n 2-Çıkarma\n 3-Çarpma\n 4-Bölme ");
-        select = input.nextInt();		
+		System.out.println("Yapmak ÃstediÃ°iniz ÃÃ¾lemi Giriniz 1-Toplama\n 2-Ã‡Ã½karma\n 3-Ã‡arpma\n 4-BÃ¶lme ");
+                select = input.nextInt();		
 		int sonuc = 0;
 		
 		switch (select) {
