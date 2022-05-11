@@ -4,7 +4,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-	int number,sayac;	
+	int number,sayac=0;	
 	Scanner scn = new Scanner(System.in);	
 	double avarage = 0;	
 	System.out.println("Lütfen Bir Sayý Giriniz");	
